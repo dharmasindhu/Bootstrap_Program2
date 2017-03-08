@@ -1,0 +1,35 @@
+<html lang-"en">
+ <head>
+   <title>This is my first bootstrap</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="../boot/bootstrap.min.css">
+   <script src="../boot/jquery.min.js"></script>  
+   <script src="../boot/bootstrap.min.js"></script> 
+</head>
+<body>
+<div class="container">
+  <h3>Tooltip Example</h3>
+  <p>The data-placement attribute specifies the tooltip position.</p>
+  <ul class="list-inline">
+    <li><a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!">Top</a></li>
+    <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Hooray!">Bottom</a></li>
+    <li><a href="#" data-toggle="tooltip" data-placement="left" title="Hooray!">Left</a></li>
+    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Hooray!">Right</a></li>
+  </ul>
+</div>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+
+</body>
+
+<!-- Mirrored from www.w3schools.com/bootstrap/tryit.asp?filename=trybs_tooltip_pos&stacked=h by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 23 Jul 2016 03:18:04 GMT -->
+</html>
+
+
+
+
